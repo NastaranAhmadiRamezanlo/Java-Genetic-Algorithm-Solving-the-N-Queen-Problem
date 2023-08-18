@@ -5,7 +5,6 @@ import java.util.Comparator;
 import java.util.List;
 
 public class SortedSolution {
-    
     public List<SolutionAndFitness> getSortedSolution(List<SolutionAndFitness> middlePopulationList) {
 
         Collections.sort(middlePopulationList, new Comparator<SolutionAndFitness>() {
