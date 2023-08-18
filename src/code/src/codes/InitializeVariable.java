@@ -2,6 +2,7 @@ package code.src.codes;
 
 public class InitializeVariable {
     //parameters
+    
     int numberOfSolution = 50;
     int numberOfQueen = 20;
     int mutationRate = 30;
