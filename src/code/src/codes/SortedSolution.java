@@ -13,6 +13,7 @@ public class SortedSolution {
                 return a1.getFitness() - a2.getFitness();
             }
         });
+        
         return middlePopulationList;
     }
 }
