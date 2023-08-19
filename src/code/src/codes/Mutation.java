@@ -7,9 +7,7 @@ public class Mutation {
 
     public List<SolutionAndFitness> getMutation(List<SolutionAndFitness> oldPopulation,
                                                 int numberOfMutation) {
-
         List<SolutionAndFitness> deepCopy = new ArrayList<>(oldPopulation);
-
         List<SolutionAndFitness> newPopulation = new ArrayList<>();
         for (int i = 0; i < numberOfMutation; i++) {
             int firstRandomNumberForOldPopulation = (int) Math.floor(Math.random() * ((deepCopy.size() - 1) - 0 + 1) + 0);
