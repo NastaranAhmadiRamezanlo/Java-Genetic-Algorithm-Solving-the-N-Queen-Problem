@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BestSolution {
+    
     private Integer fitness;
     private List<Integer> bestSolution;
 
