@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GraphPanel extends JPanel {
-    
     public static List<Double> curveValues = new ArrayList<>();
     private int width = 800;
     private int heigth = 800;
