@@ -3,8 +3,6 @@ package code.src.codes;
 import java.util.ArrayList;
 import java.util.List;
 
-
-
 public class SolutionAndFitness  {
     private List<Integer> solution;
     private Integer fitness;
