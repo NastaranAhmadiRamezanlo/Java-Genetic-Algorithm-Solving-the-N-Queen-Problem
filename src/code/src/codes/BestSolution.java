@@ -17,7 +17,7 @@ public class BestSolution {
                 for (Integer solution : solutionList) {
                     System.out.print(" " + solution);
                 }
-                System.out.println("  Fitness " + bestSolution.getFitness());
+                System.out.println("  Fitness  " + bestSolution.getFitness());
             }
         }
     }
