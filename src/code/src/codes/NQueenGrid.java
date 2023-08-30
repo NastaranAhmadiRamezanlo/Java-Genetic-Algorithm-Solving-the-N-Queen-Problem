@@ -12,6 +12,7 @@ public class NQueenGrid {
     public int gridSizeValue;
 
     public NQueenGrid(List<Integer> solutionList, int numberOfQueen, int gridSize) {
+     
         publicList = solutionList;
         numberOfQueenGrid = numberOfQueen;
         gridSizeValue = gridSize;
