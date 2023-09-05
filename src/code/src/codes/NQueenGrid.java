@@ -7,8 +7,7 @@ import java.util.List;
 
 public class NQueenGrid {
 
-    public List<Integer> publicList = new ArrayList<>();
-  
+    public List<Integer> publicList = new ArrayList<>(); 
     public int numberOfQueenGrid;
     public int gridSizeValue;
 
